@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="./fa/css/all.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+      *{
+          padding:0;
+          margin:0;
+          box-sizing: border-box;
+      }
+     body{
+         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     }
+     .container{
+       width:100vm;
+       height: 100vh;
+       display: grid;
+       grid-template-columns:repeat(2,1fr) ;
+        grid-gap:18rem;
+        padding:0 2rem;
+     }
+     .login-box{
+         display: flex;
+         align-items: center;
+         text-align: center;
+     }
+     form{
+         width:360px;
+     }
+     form{
+         font-size:2.9rem;
+         text-transform: uppercase;
+         margin:15px 0;
+         color:#999;
+     }
+     .input-group{
+         position: relative;
+         display:grid;
+         grid-template-columns: 7% 93%;
+         margin:25px 0;
+         padding:5px 0;
+         border-bottom:2px solid #d9d9d9;
+     }
+     .input-group:nth-child(1){
+         margin-bottom: 4px;
+     }
+     .icon{
+         display: flex;
+         justify-content: center;
+         align-items:center;
+     }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       <div class="login-box">
+           <form action="">
+               <h2>welcome</h2>
+               <div class="input-group">
+                   <div class="icon">
+                       <i class="fa fa-user"></i>
+                   </div>
+                   <div>
+                       <h5>Username</h5>
+                       <input type="text" class="input">
+                   </div>
+               </div>
+               <div class="input-group">
+                <div class="icon">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div>
+                    <h5>Password</h5>
+                    <input type="text" class="input">
+                </div>
+            </div>
+            <a href="#">Forgot Password?</a>
+            <button type="submit" class="btn" value="Login"></button>
+           </form>
+       </div>
+                    
+
+
+
+    <!-- jQuery -->
+
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Bootstrap JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
