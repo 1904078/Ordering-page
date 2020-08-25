@@ -5,6 +5,7 @@ body{
 a{
     color:#b89f6c
 }
+/* 首页 */
 /* 顶部导航 */
 .navbar-default{
     background-color: #fff;
@@ -55,9 +56,6 @@ img{
     overflow: hidden;
     padding-left:0
 }
- .panel-body{
-     padding:10px 0;
- }
  .damu-details{
      margin-top:10px;
  }
@@ -70,7 +68,7 @@ img{
  .damu-price,.damu-cart{
     display: block;
     float: left;
-     margin-right: 50px;
+    margin-right: 50px;
  }
  .glyphicon {
     top: 4px;
@@ -181,3 +179,65 @@ margin-right:20px;
 .temp_input_field{
 margin-top:20px;
 }
+
+/* 购物车页面*/
+/* 商品信息 */
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #e2bf22;
+    border-color: #997e07;
+}
+.damu-cart-header{
+    margin: 50px 0 20px;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.damu-cart-checkbox{
+    background-color: #fff;
+    border: none;
+}
+.damu-cart-btn{
+    width:30px; 
+    height:28px;
+}
+.damu-cart-num{
+ width:64px;
+ height:28px;
+ margin-top:10px;
+text-align:center;
+}
+/* 结算栏 */
+.damu-bottom-wrap{
+    /* margin-top: 20px; */
+    /* border: solid 10px #898989;  */
+    width: 100%; 
+    /* z-index: 100006; */
+    position: fixed; 
+    bottom: 30px;
+    
+}
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-menu #checkAllBottom {
+    vertical-align: text-bottom;
+}
+#selectGoodsMoney {
+    color: rgb(194, 182, 24);
+    font-size: 16px;
+    font-weight: bolder;
+}
+#deleteMulty, #payMulty{
+    color: rgb(194, 182, 24);
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+.bottom-menu-include {
+    background: #e5e5e5;
+}
+
+
