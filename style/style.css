@@ -88,35 +88,35 @@ img{
 
 
 /* 登录注册页面 */
-.temp-form-column-wrap {
+.damu-form-column-wrap {
     margin-top:100px;
   }
-.temp-checkbox-wrap {
+.damu-checkbox-wrap {
 font-size: 12px;
 position: relative;
 margin-left: 15px;
 color: #fad221;
 }
-.temp-checkbox-wrap input {
+.damu-checkbox-wrap input {
 content: "";
 left: -17px;
 position: absolute;
 top: -5px;
 visibility: hidden;
 }
-.temp-checkbox-wrap a{
+.damu-checkbox-wrap a{
 font-size: 12px;
 color: #fad221;
 margin-left:20px;
 text-decoration: none;
 }
-.temp-checkbox-wrap input:checked ~ .checkmark {
+.damu-checkbox-wrap input:checked ~ .checkmark {
 background-color: #fad221;
 }
-.temp-checkbox-wrap input:checked ~ .checkmark:after {
+.damu-checkbox-wrap input:checked ~ .checkmark:after {
 display: block;
 }
-.temp-checkbox-wrap .checkmark {
+.damu-checkbox-wrap .checkmark {
 background: #fad221;
 height: 16px;
 left: -17px;
@@ -124,7 +124,7 @@ position: absolute;
 top: 0px;
 width: 16px;
 }
-.temp-checkbox-wrap .checkmark:after {
+.damu-checkbox-wrap .checkmark:after {
 border-color: #bababa;
 border-style: solid;
 border-width: 0 2px 2px 0;
@@ -140,31 +140,32 @@ border-color: #fff;
 display: none;
 }
 
-.temp-login-form-wrapper .temp-form-column-wrap h2 {
+.damu-login-form-wrapper .damu-form-column-wrap h2 {
 margin-bottom: 30px;
 color: #fad221;
 }
-.temp-login-form-wrapper .temp-form-column-wrap .custom-form-label2 a {
+.damu-login-form-wrapper .damu-form-column-wrap .custom-form-label2 a {
 font-size: 12px;
 color: #fad221;
 margin-left:20px;
 text-decoration: none;
 }
-.temp-login-button-wrap {
-/* margin: 20px auto; */
+.damu-button-wrap {
 margin-left: 20px;
+margin-top:20px;
 width: 50%;
 background-color: #fad221;
 border-color: #f7ce1a;
 text-align: center;
 }
 
-.temp-form-button {
+.damu-form-button {
 color: #fff;
 background-color: #fad221;
 border:none;
+width:110px;
 }
-.temp-form-button:hover {
+.damu-form-button:hover {
 background-color: #f3c808;
 color:#fff
 }
@@ -173,10 +174,10 @@ margin-bottom: 20px;
 margin-top:20px;
 }
 
-.temp_input_label{
+.damu_input_label{
 margin-right:20px;
 }
-.temp_input_field{
+.damu_input_field{
 margin-top:20px;
 }
 
@@ -259,6 +260,22 @@ text-align:center;
 }
 .bottom-menu-include {
     background: #e5e5e5;
+}
+
+/* My account */
+.list-group-item {
+    margin-bottom: 10px;
+
+}
+.damu-my-info {
+    float: right;
+}
+.damu-my-button-wrap {
+    margin: 20px auto;
+    width: 20%;
+    background-color: #fad221;
+    border-color: #f7ce1a;
+    text-align: center;
 }
 
 
