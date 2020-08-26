@@ -204,32 +204,12 @@ margin-top:20px;
     background-color: #fff;
     border: none;
 }
-.damu-cart-btn{
-    width:30px; 
-    height:28px;
-}
-.damu-cart-num{
- width:64px;
- height:28px;
- margin-top:10px;
-text-align:center;
-}
-.damu-cart-btn-wrap{
-    float:right;
-    /* margin-bottom:30px */
-}
-.damu-cart-price{
-    float:left;
-    margin-top:15px
-}
+.damu-table{background: #fff;text-align: center;}
+.damu-table img{width:40px;height:40px;}
+.damu-table td *{vertical-align: middle;}
+.damu-table th{text-align: center;}
 /* 结算栏 */
 .damu-bottom-wrap{
-    /* margin-top: 20px; */
-    /* border: solid 10px #898989;  */
-    /* width: 100%;  */
-    /* z-index: 100006; */
-    /* position: fixed; 
-    bottom: 30px; */
     bottom: 30px;
     margin-bottom: 20px;
     border-width: 1px 0 0;
@@ -238,8 +218,6 @@ text-align:center;
     left: 0;
     z-index: 1030;
 }
-
-
 .bottom-menu {
     display: flex;
     align-items: center;
@@ -265,11 +243,12 @@ text-align:center;
 /* My account */
 .list-group-item {
     margin-bottom: 10px;
-
+    border:none;
 }
 .damu-my-info {
     float: right;
 }
+
 .damu-my-button-wrap {
     margin: 20px auto;
     width: 20%;

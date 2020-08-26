@@ -9,9 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style/style.css">
-    <style>
 
-    </style>
 </head>
 
 <body>
@@ -48,92 +46,33 @@
    <!-- 主体 -->
  <div class="container damu-cart-wrap">
     <div class="row">
-        <div class="col-lg-6">
-          <div class="input-group">
-            <span class="input-group-addon damu-cart-checkbox">
-              <input type="checkbox" aria-label="choose one">
-            </span>
-            <div class="row damu-details">
-                <div class="col-xs-4 col-md-4">
-                    <a href="#">
-                        <img src="../images/burger2.jpg" class="damu-img">
-                    </a>
-                </div>
-                <div class="col-xs-8 col-md-6">
-                    <div class="damu-intro">
-                        <a href="#">
-                            <h4>Chicken burger</h4>
-                            <span>Chicken &nbsp</span>
-                        </a>
-                    </div>
-                    <div>
-                        <p class="damu-cart-price">£2.5</p>
-                        <div class="damu-cart-btn-wrap " role="group" aria-label="...">
-                         <input class="damu-cart-btn" type="button" value="-" />
-		                 <input class="damu-cart-num"id="num" name="num" value="1"/>
-		                 <input class="damu-cart-btn" type="button" value="+"  />
-                        </div>
-                    </div>
-                </div>
-            </div>  
-          </div>
-          <div class="input-group">
-            <span class="input-group-addon damu-cart-checkbox">
-              <input type="checkbox" aria-label="choose one">
-            </span>
-            <div class="row damu-details">
-                <div class="col-xs-4 col-md-4">
-                    <a href="#">
-                        <img src="../images/burger2.jpg" class="damu-img">
-                    </a>
-                </div>
-                <div class="col-xs-8 col-md-6">
-                    <div class="damu-intro">
-                        <a href="#">
-                            <h4>Chicken burger</h4>
-                            <span>Chicken &nbsp</span>
-                        </a>
-                    </div>
-                    <div>
-                        <p class="damu-cart-price">£2.5</p>
-                        <div class="damu-cart-btn-wrap " role="group" aria-label="...">
-                         <input class="damu-cart-btn" type="button" value="-" />
-		                 <input class="damu-cart-num"id="num" name="num" value="1"/>
-		                 <input class="damu-cart-btn" type="button" value="+"  />
-                        </div>
-                    </div>
-                </div>
-            </div>  
-          </div>
-          <div class="input-group">
-            <span class="input-group-addon damu-cart-checkbox">
-              <input type="checkbox" aria-label="choose one">
-            </span>
-            <div class="row damu-details">
-                <div class="col-xs-4 col-md-4">
-                    <a href="#">
-                        <img src="../images/burger2.jpg" class="damu-img">
-                    </a>
-                </div>
-                <div class="col-xs-8 col-md-6">
-                    <div class="damu-intro">
-                        <a href="#">
-                            <h4>Chicken burger</h4>
-                            <span>Chicken &nbsp</span>
-                        </a>
-                    </div>
-                    <div>
-                        <p class="damu-cart-price">£2.5</p>
-                        <div class="damu-cart-btn-wrap " role="group" aria-label="...">
-                         <input class="damu-cart-btn" type="button" value="-" />
-		                 <input class="damu-cart-num"id="num" name="num" value="1"/>
-		                 <input class="damu-cart-btn" type="button" value="+"  />
-                        </div>
-                    </div>
-                </div>
-            </div>  
-          </div>
-        </div> 
+        <div class="col-lg-8">
+        <table class="table damu-table">
+            <tr>
+                <th></th>
+                <th>Goods</th>
+                <th>Number</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td><span class="input-group-addon damu-cart-checkbox">
+                    <input type="checkbox" aria-label="choose one">
+                  </span></td>
+                <td>
+                    <img src="../images/burger2.jpg" class="damu-order-img">
+                </td>
+                <td><span class="btn-group btn-group-sm">
+                    <button type="button" class="btn btn-default">+</button>
+                    <button type="button" class="btn btn-default">1</button>
+                    <button type="button" class="btn btn-default">-</button>
+                </span>
+               </td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+        </table>
+     </div> 
     </div>
 </div> 
 <!-- 结算栏 -->
@@ -168,17 +107,17 @@
                     </a>
                 </div>
                 <div class="col-md-3  col-sm-3 col-xs-3 damu-bottomNav">
-                    <a href="javascript:;" >Order
+                    <a href="../pages/order.html" >Order
                         <span class="glyphicon glyphicon-book"></span>
                     </a>
                 </div>
                 <div class="col-md-3  col-sm-3 col-xs-3 damu-bottomNav">
-                    <a href="javascript:;">Cart
+                    <a href="../pages/cart.html">Cart
                         <span class="glyphicon glyphicon-shopping-cart"></span>
                     </a>
                 </div>
                 <div class="col-md-3  col-sm-3 col-xs-3 damu-bottomNav">
-                    <a href="javascript:;" >My
+                    <a href="../pages/myAccount.html" >My
                         <span class="glyphicon glyphicon-user"></span>
                     </a>
                 </div>
