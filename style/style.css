@@ -54,7 +54,8 @@ img{
     width:100%;
     height:100%;
     overflow: hidden;
-    padding-left:0
+    padding-left:0;
+    margin-top: 20px;
 }
  .damu-details{
      margin-top:10px;
@@ -64,17 +65,19 @@ img{
  }
  .damu-intro{
     padding-bottom: 50px;
+    margin-top:20px;
  }
  .damu-price,.damu-cart{
     display: block;
     float: left;
-    margin-right: 50px;
+    margin-right: 17px;
  }
  .glyphicon {
     top: 4px;
  }
- #menu{
+ #Menu{
      margin-top:20px;
+     width:100%;
  }
  /* 底部导航 */
  .damu-bottomNav{

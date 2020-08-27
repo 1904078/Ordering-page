@@ -12,7 +12,15 @@
     <style>
         .table tr td {
             border: 1px solid white;
-            ;
+
+        }
+
+        .nav-lf {
+            position: absolute;
+            left: 0;
+            width: 50%;
+            background-color: #E5E5E5;
+            text-align: center;
         }
     </style>
 </head>
@@ -89,7 +97,7 @@
                 <!-- 主体 -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
                             <div class="list-group" id="Menu">
                                 <a href="#" class="list-group-item active">Single item</a>
                                 <a href="#" class="list-group-item">Meal</a>
@@ -97,100 +105,50 @@
                                 <a href="#" class="list-group-item">Drinks</a>
                             </div>
                         </div>
-                        <div class=" col-lg-10 col-md-10 col-sm-8 col-xs-8">
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                            <a href="#">
+                                <img src="./images/burger2.jpg" class="damu-img">
+                            </a>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+                            <div class="damu-intro">
+                                <a href="#">
+                                    <h4>Chicken burger </h4>
+                                    <span>Chicken &nbspChicken burgerChicken burgerChicken burger</span>
+                                </a>
+                            </div>
+                            <div>
+                                <p class="damu-price">£2.5</p>
+                                <a href="javascript:;" class="damu-cart">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class=" col-lg-10 col-md-10 col-sm-8 col-xs-8">
                             <div class="container">
-                                <div clsaa="row">
-                                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                                        <div class="row damu-details">
-                                            <div class="col-xs-4 col-md-4">
-                                                <a href="#">
-                                                    <img src="./images/burger2.jpg" class="damu-img">
-                                                </a>
-                                            </div>
-                                            <div class="col-xs-8 col-md-6">
-                                                <div class="damu-intro">
-                                                    <a href="#">
-                                                        <h4>Chicken burger</h4>
-                                                        <span>Chicken &nbsp</span>
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <p class="damu-price">£2.5</p>
-                                                    <a href="javascript:;" class="damu-cart">
-                                                        <span class="glyphicon glyphicon-shopping-cart"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row damu-details">
-                                            <div class="col-xs-4 col-md-4">
-                                                <a href="#">
-                                                    <img src="./images/chips.jpg" class="damu-img " alt="chips">
-                                                </a>
-                                            </div>
-                                            <div class="col-xs-8 col-md-6">
-                                                <div class="damu-intro">
-                                                    <a href="#">
-                                                        <h4>Chips</h4>
-                                                        <p>Fried &nbsp Large portion</p>
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <p class="damu-price">£2.5</p>
-                                                    <a href="javascript:;" class="damu-cart">
-                                                        <span class="glyphicon glyphicon-shopping-cart"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="row damu-details">
+                                    <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="#">
+                                            <img src="./images/burger2.jpg" class="damu-img">
+                                        </a>
                                     </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                                        <div class="row damu-details">
-                                            <div class="col-xs-4 col-md-4">
-                                                <a href="#">
-                                                    <img src="./images/burger1.jpg" class="damu-img ">
-                                                </a>
-                                            </div>
-                                            <div class="col-xs-8 col-md-6">
-                                                <div class="damu-intro">
-                                                    <a href="#">
-                                                        <h4>Beef Burger</h4>
-                                                        <span>Beef &nbsp Double</span>
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <p class="damu-price">£2.5</p>
-                                                    <a href="javascript:;" class="damu-cart">
-                                                        <span class="glyphicon glyphicon-shopping-cart"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                    <div class="col-xs-8 col-sm-8 col-md-8">
+                                        <div class="damu-intro">
+                                            <a href="#">
+                                                <h4>Chicken burger </h4>
+                                                <span>Chicken &nbspChicken burgerChicken burgerChicken burger</span>
+                                            </a>
                                         </div>
-                                        <div class="row damu-details">
-                                            <div class="col-xs-4 col-md-4">
-                                                <a href="#">
-                                                    <img src="./images/chips.jpg" class="damu-img " alt="chips">
-                                                </a>
-                                            </div>
-                                            <div class="col-xs-8 col-md-6">
-                                                <div class="damu-intro">
-                                                    <a href="#">
-                                                        <h4>Chips</h4>
-                                                        <p>Fried &nbsp Large portion</p>
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <p class="damu-price">£2.5</p>
-                                                    <a href="javascript:;" class="damu-cart">
-                                                        <span class="glyphicon glyphicon-shopping-cart"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div>
+                                            <p class="damu-price">£2.5</p>
+                                            <a href="javascript:;" class="damu-cart">
+                                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -222,7 +180,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- 底部导航栏 -->
     <nav class="navbar navbar-inverse navbar-fixed-bottom ">
